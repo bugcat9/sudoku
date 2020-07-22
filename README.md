@@ -7,7 +7,7 @@
 * 具有提示、选择难度等功能
 * 有游戏失败等功能的坑等待填。。。玩还是还可以玩
 
-主要代码在 sudokucore.py、DLXWindow.py中，其中sudokucore.py主要为舞蹈链编写以及数独的核心逻辑，DLXWindow.py主要为界面的编写。想要知道详细情况可以[访问数独.pdf](/访问数独.pdf)
+主要代码在 sudokucore.py、DLXWindow.py中，其中sudokucore.py主要为舞蹈链编写以及数独的核心逻辑，DLXWindow.py主要为界面的编写。想要知道详细情况可以[数独.pdf](/数独.pdf)
 
 界面：
 
