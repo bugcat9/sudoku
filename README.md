@@ -7,11 +7,11 @@
 * 具有提示、选择难度等功能
 * 有游戏失败等功能的坑等待填。。。玩还是还可以玩
 
-主要代码在 sudokucore.py、DLXWindow.py中，其中sudokucore.py主要为舞蹈链编写以及数独的核心逻辑，DLXWindow.py主要为界面的编写。想要知道详细情况可以[访问数独.pdf](访问数独.pdf)
+主要代码在 sudokucore.py、DLXWindow.py中，其中sudokucore.py主要为舞蹈链编写以及数独的核心逻辑，DLXWindow.py主要为界面的编写。想要知道详细情况可以[访问数独.pdf](/访问数独.pdf)
 
 界面：
 
-![image-20200722221752967](image-20200722221752967.png)
+![image-20200722221752967](/image-20200722221752967.png)
 
 难度使用读取txt进行，分别对应着简单.txt、普通.txt、困难.txt
 
