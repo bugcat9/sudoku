@@ -234,14 +234,13 @@ class SudokuWindow(QMainWindow):
                     self.revocationLeftList.append((y-2,x-2,self.mysudokucore[y-2][x-2]))
                     self.mysudokucore[y-2][x-2]=self.choosenum
                     if self.mysudokucore.judge():
-                        print("正确")
+                        print("数字填写正确")
                         for i in self.mysudokucore.maze:
                             print(i)
-                        print("1111111111111111111")
                         for i in self.mysudokucore.ansMaze:
                             print(i)
                     else:
-                        print("错了")
+                        print("数字填写错误")
             elif x==12 and 2<=y<=10:
                 self.choosenum=y-1
                 self.unsetCursor()
